@@ -1,0 +1,14 @@
+para su funcionamiento toca instalar Netmiko que es lo siguiente 
+"Netmiko es una biblioteca de Python potente y versátil que simplifica la automatización de las tareas de gestión de red"
+https://www.pynetlabs.com/what-is-netmiko-and-how-to-use-it-in-python/#:~:text=Netmiko%20es%20una%20biblioteca%20de%20Python%20potente%20y%20vers%C3%A1til%20que,tareas%20de%20gesti%C3%B3n%20de%20red.
+
+usando el comando en windows 
+pip install netmiko
+y usando linux quedaria 
+sudo apt install python3-pip
+
+usaremos el siguiente modo de formato 
+auto_config/  <-- Carpeta donde ira alojados los codigos
+│
+├── config_switch.py   <-- Script para el switch
+└── config_router.py   <-- Script para el router
